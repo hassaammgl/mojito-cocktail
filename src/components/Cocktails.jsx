@@ -8,9 +8,9 @@ const Cocktails = () => {
     useGSAP(() => {
         const paralaxTimeline = gsap.timeline({
             scrollTrigger: {
-                trigger: "",
-                start: "",
-                end: "",
+                trigger: "#cocktails",
+                start: "top 30%",
+                end: "bottom 80%",
                 scrub: true,
             }
         })
